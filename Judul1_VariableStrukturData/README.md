@@ -132,11 +132,37 @@ SOURCE CODE :
     Menjalankan fungsi main() ketika program dieksekusi.
 
 
+OUTPUT PROGRAM :
 
+<img width="327" height="177" alt="Screenshot 2026-04-29 205131" src="https://github.com/user-attachments/assets/45a8b307-4e92-4722-91da-a5172a9a3031" />
 
+Pengguna memilih menu 1 (Tambah Tugas), lalu memasukkan tugas
 
+<img width="476" height="80" alt="Screenshot 2026-04-29 205426" src="https://github.com/user-attachments/assets/4ada5839-482f-4634-8875-c31f4587ac15" />
 
+<img width="409" height="257" alt="Screenshot 2026-04-29 205645" src="https://github.com/user-attachments/assets/ec90c9ae-bd29-4712-89d3-d19aa3e915f0" />
 
+Pengguna memilih menu 2 (Lihat Tugas)
+
+<img width="480" height="75" alt="Screenshot 2026-04-29 205853" src="https://github.com/user-attachments/assets/6253959c-2a35-4953-a0c1-bf7f1719ec84" />
+
+Pengguna menandai tugas pertama sebagai selesai
+
+<img width="351" height="120" alt="Screenshot 2026-04-29 205951" src="https://github.com/user-attachments/assets/9a2ed97d-d812-4125-b75d-757dac25654f" />
+
+Jika dilihat kembali
+
+<img width="417" height="75" alt="Screenshot 2026-04-29 210122" src="https://github.com/user-attachments/assets/c5ad0f7b-8b32-49a2-afca-ecd048cc98b3" />
+
+Pengguna menghapus tugas pertama
+
+<img width="335" height="106" alt="Screenshot 2026-04-29 210229" src="https://github.com/user-attachments/assets/0efd834d-5126-4539-9aab-28f186cfb611" />
+
+Jika dilihat kembali
+
+<img width="1126" height="43" alt="Screenshot 2026-04-29 210352" src="https://github.com/user-attachments/assets/b9c6de68-0b4f-47bc-bda1-b2fbc738c9d8" />
+
+Terakhir, pengguna keluar dari program
 
 
 
