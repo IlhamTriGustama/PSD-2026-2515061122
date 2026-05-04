@@ -53,10 +53,10 @@ SOURCE CODE :
     Jika kondisi terpenuhi (skor atau nilai di kiri lebih kecil) maka akan ditukar dengan memanggil fungsi "tukar" untuk menukar posisi data.
 
 12. except ValueError:
-
-       print("Input tidak valid!")
-
-       return
+    
+     print("Input tidak valid!")
+    
+     return
 
     Jika input bukan angka, program akan berhenti dengan "return".
 
