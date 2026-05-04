@@ -9,3 +9,9 @@ Program yang dibuat merupakan sebuah simulasi sederhana dari sistem leaderboard 
 B. PENJELASAN ALGORITMA DAN SORTING YANG DIGUNAKAN
 
 Algoritma sorting yang digunakan dalam program ini adalah Bubble Sort, yaitu metode pengurutan yang bekerja dengan cara membandingkan elemen yang bersebelahan, kemudian menukarnya jika urutannya tidak sesuai. Proses ini dilakukan secara berulang hingga seluruh data tersusun dengan benar. Dalam program ini, Bubble Sort dimodifikasi untuk mengurutkan data secara descending, sehingga skor tertinggi akan berada di posisi paling atas. Pada setiap iterasi, algoritma akan membandingkan skor dari dua pemain yang berdekatan. Jika skor pemain di posisi awal lebih kecil dibandingkan pemain berikutnya, maka kedua data tersebut akan ditukar posisinya. Proses ini terus dilakukan sampai tidak ada lagi pertukaran yang diperlukan, yang menandakan bahwa seluruh data sudah terurut.
+
+SOURCE CODE :
+
+<img width="887" height="671" alt="Screenshot 2026-05-04 195510" src="https://github.com/user-attachments/assets/dc021a98-674f-4783-87c5-1f7d5167de29" />
+
+<img width="784" height="649" alt="Screenshot 2026-05-04 195541" src="https://github.com/user-attachments/assets/19348bf5-635c-4beb-9649-d84cf5ad9717" />
