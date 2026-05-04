@@ -53,40 +53,42 @@ SOURCE CODE :
     Jika kondisi terpenuhi (skor atau nilai di kiri lebih kecil) maka akan ditukar dengan memanggil fungsi "tukar" untuk menukar posisi data.
 
 12. except ValueError:
+    
         print("Input tidak valid!")
+    
         return
 
     Jika input bukan angka, program akan berhenti dengan "return".
 
-13. data = []
+14. data = []
 
     Membuat list kosong untuk menyimpan data.
 
-14. nama = input(f"Nama player ke-{i+1}: ")
+15. nama = input(f"Nama player ke-{i+1}: ")
 
     Input nama player, "i+1" supaya dimulai dari 1, bukan 0.
 
-15. data.append({'nama': nama, 'skor': skor})
+16. data.append({'nama': nama, 'skor': skor})
 
     Menyimpan data ke dalam list.
 
-16. for d in data:
+17. for d in data:
 
     Loop untuk mengambil data.
 
-17. print(f"{d['nama']} - {d['skor']}")
+18. print(f"{d['nama']} - {d['skor']}")
 
     Menampilkan nama dan skor.
 
-18. bubble_sort(data, n)
+19. bubble_sort(data, n)
 
     Memanggil fungsi sorting untuk mengurutkan data.
 
-19. for i in range(n):
+20. for i in range(n):
 
     Loop untuk menampilkan hasil.
 
-20. print(f"{i+1}. {data[i]['nama']} - {data[i]['skor']}")
+21. print(f"{i+1}. {data[i]['nama']} - {data[i]['skor']}")
 
     Menampilkan ranking, "i+1" untuk menampilkan nomor urut, kemudian nama dan skor
 
