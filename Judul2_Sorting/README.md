@@ -92,7 +92,17 @@ SOURCE CODE :
 
     Menampilkan ranking, "i+1" untuk menampilkan nomor urut, kemudian nama dan skor
 
+OUTPUT PROGRAM :
 
+<img width="427" height="275" alt="Screenshot 2026-05-04 204645" src="https://github.com/user-attachments/assets/3f49724c-2549-4038-8dd0-4e8e57764759" />
+
+<img width="345" height="151" alt="Screenshot 2026-05-04 204659" src="https://github.com/user-attachments/assets/2abf65f1-7b42-4c82-a87b-aa64d8d03ace" />
+
+<img width="575" height="141" alt="Screenshot 2026-05-04 204717" src="https://github.com/user-attachments/assets/2dd8faca-b833-4495-bc89-580a24439375" />
+
+PENJELASAN OUTPUT PROGRAM
+
+Pada bagian awal, program meminta pengguna memasukkan jumlah player yang akan diolah. Setelah itu, pengguna diminta mengisi nama dan skor masing-masing player. Data yang dimasukkan pertama kali akan ditampilkan dalam urutan yang sama seperti saat diinput, sehingga pengguna dapat melihat kondisi data sebelum proses sorting dilakukan. Setelah fungsi Bubble Sort dijalankan, data player diurutkan berdasarkan skor dari nilai tertinggi ke terendah. Karena program menggunakan metode descending, maka player dengan skor paling besar akan berada di posisi pertama. Output akhir program berbentuk leaderboard, sehingga hasil pengurutan tidak hanya menampilkan skor, tetapi juga menampilkan peringkat masing-masing player. Dengan begitu, pengguna dapat langsung mengetahui siapa pemain dengan skor tertinggi dan bagaimana urutan keseluruhan pemain setelah proses sorting dilakukan.
 
 
 
