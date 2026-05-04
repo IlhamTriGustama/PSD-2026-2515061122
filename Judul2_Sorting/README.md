@@ -17,6 +17,89 @@ SOURCE CODE :
 <img width="759" height="606" alt="Screenshot 2026-05-04 195725" src="https://github.com/user-attachments/assets/e40bbc93-f2e5-4106-a85b-84b4c02c3ece" />
 
 1. def tukar(arr, i, j):
-   Mendefinisikan sebuah fungsi bernama "tukar" dengan parameter "arr" yaitu list data, "i" yaitu indeks pertama, dan "j" indeks kedua
 
-2. 
+   Mendefinisikan sebuah fungsi bernama "tukar" dengan parameter "arr" yaitu list data, "i" yaitu indeks pertama, dan "j" indeks kedua. 
+
+2. temp = arr[i]
+
+   Menyimpan sementara nilai yang ada pada array di indeks "i" ke variabel "temp".
+
+3. arr[i] = arr[j]
+
+   Mengisi posisi i dengan nilai dari indeks j.
+
+4. arr[j] = temp
+
+   Mengisi posisi j dengan nilai yang tadinya telah disimpan di variabel temp. 
+
+5. def bubble_sort(arr, n):
+
+   Mendefinisikan sebuah fungsi bernama "bubble_sort" yang akan digunakan untuk melakukan sorting dengan parameter "arr" sebagai list, dan "n" yaitu banyak jumlah datanya. 
+
+6. for i in range(n - 1):
+
+   Perulangan luar atau loop utama, menentukan berapa kali proses pengurutan akan dilakukan.
+
+7. for j in range(n - i - 1):
+
+   Perulangan dalam atau loop pembanding, digunakan untuk membandingkan elemen satu dengan yang lain.
+
+8. if arr[j]['skor'] < arr[j + 1]['skor']:
+
+   Sebuah perkondision yang digunakan untuk membandingkan skor dua indeks yang bersebelahan, tanda "<" digunakan karena kita ingin melakukan pengurutan secara descending.
+
+9, tukar(arr, j, j + 1)
+
+   Jika kondisi terpenuhi (skor atau nilai di kiri lebih kecil) maka akan ditukar dengan memanggil fungsi "tukar" untuk menukar posisi data.
+
+10. except ValueError:
+        print("Input tidak valid!")
+        return
+
+    Jika input bukan angka, program akan berhenti dengan "return".
+
+11. data = []
+
+    Membuat list kosong untuk menyimpan data.
+
+12. nama = input(f"Nama player ke-{i+1}: ")
+
+    Input nama player, "i+1" supaya dimulai dari 1, bukan 0.
+
+13. data.append({'nama': nama, 'skor': skor})
+
+    Menyimpan data ke dalam list.
+
+14. for d in data:
+
+    Loop untuk mengambil data.
+
+15. print(f"{d['nama']} - {d['skor']}")
+
+    Menampilkan nama dan skor.
+
+16. bubble_sort(data, n)
+
+    Memanggil fungsi sorting untuk mengurutkan data.
+
+17. for i in range(n):
+
+    Loop untuk menampilkan hasil.
+
+18. print(f"{i+1}. {data[i]['nama']} - {data[i]['skor']}")
+
+    Menampilkan ranking, "i+1" untuk menampilkan nomor urut, kemudian nama dan skor
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
