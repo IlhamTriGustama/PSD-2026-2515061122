@@ -50,43 +50,43 @@ SOURCE CODE :
 
  9. tukar(arr, j, j + 1)
 
-   Jika kondisi terpenuhi (skor atau nilai di kiri lebih kecil) maka akan ditukar dengan memanggil fungsi "tukar" untuk menukar posisi data.
+    Jika kondisi terpenuhi (skor atau nilai di kiri lebih kecil) maka akan ditukar dengan memanggil fungsi "tukar" untuk menukar posisi data.
 
-10. except ValueError:
+12. except ValueError:
         print("Input tidak valid!")
         return
 
     Jika input bukan angka, program akan berhenti dengan "return".
 
-11. data = []
+13. data = []
 
     Membuat list kosong untuk menyimpan data.
 
-12. nama = input(f"Nama player ke-{i+1}: ")
+14. nama = input(f"Nama player ke-{i+1}: ")
 
     Input nama player, "i+1" supaya dimulai dari 1, bukan 0.
 
-13. data.append({'nama': nama, 'skor': skor})
+15. data.append({'nama': nama, 'skor': skor})
 
     Menyimpan data ke dalam list.
 
-14. for d in data:
+16. for d in data:
 
     Loop untuk mengambil data.
 
-15. print(f"{d['nama']} - {d['skor']}")
+17. print(f"{d['nama']} - {d['skor']}")
 
     Menampilkan nama dan skor.
 
-16. bubble_sort(data, n)
+18. bubble_sort(data, n)
 
     Memanggil fungsi sorting untuk mengurutkan data.
 
-17. for i in range(n):
+19. for i in range(n):
 
     Loop untuk menampilkan hasil.
 
-18. print(f"{i+1}. {data[i]['nama']} - {data[i]['skor']}")
+20. print(f"{i+1}. {data[i]['nama']} - {data[i]['skor']}")
 
     Menampilkan ranking, "i+1" untuk menampilkan nomor urut, kemudian nama dan skor
 
