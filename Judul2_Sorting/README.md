@@ -48,7 +48,7 @@ SOURCE CODE :
 
    Sebuah perkondision yang digunakan untuk membandingkan skor dua indeks yang bersebelahan, tanda "<" digunakan karena kita ingin melakukan pengurutan secara descending.
 
-9, tukar(arr, j, j + 1)
+ 9. tukar(arr, j, j + 1)
 
    Jika kondisi terpenuhi (skor atau nilai di kiri lebih kecil) maka akan ditukar dengan memanggil fungsi "tukar" untuk menukar posisi data.
 
