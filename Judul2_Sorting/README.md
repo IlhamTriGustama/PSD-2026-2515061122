@@ -105,8 +105,7 @@ PENJELASAN OUTPUT PROGRAM
 
 Pada bagian awal, program meminta pengguna memasukkan jumlah player yang akan diolah. Setelah itu, pengguna diminta mengisi nama dan skor masing-masing player. Data yang dimasukkan pertama kali akan ditampilkan dalam urutan yang sama seperti saat diinput, sehingga pengguna dapat melihat kondisi data sebelum proses sorting dilakukan. Setelah fungsi Bubble Sort dijalankan, data player diurutkan berdasarkan skor dari nilai tertinggi ke terendah. Karena program menggunakan metode descending, maka player dengan skor paling besar akan berada di posisi pertama. Output akhir program berbentuk leaderboard, sehingga hasil pengurutan tidak hanya menampilkan skor, tetapi juga menampilkan peringkat masing-masing player. Dengan begitu, pengguna dapat langsung mengetahui siapa pemain dengan skor tertinggi dan bagaimana urutan keseluruhan pemain setelah proses sorting dilakukan.
 
-
-
+LINK YOUTUBE : https://youtu.be/o7GYGFgK4oI?si=J3ZywGmXFdpjaIxL
 
 
 
