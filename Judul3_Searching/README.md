@@ -55,5 +55,17 @@ SOURCE CODE  :
     Mengecek apakah data ditemukan. Jika nilai hasil tidak sama dengan -1, berarti game ditemukan.
 
 
+OUTPUT PROGRAM   :
+
+<img width="717" height="88" alt="Screenshot 2026-05-07 225943" src="https://github.com/user-attachments/assets/852de99a-d771-4e38-8c17-b29c0da43a4e" />
+
+<img width="468" height="88" alt="Screenshot 2026-05-07 230015" src="https://github.com/user-attachments/assets/a0f57104-7af9-46b7-a0fe-59ba14803536" />
+
+PENJELASAN OUTPUT
+
+Pada output di atas, pengguna memasukkan nama game “Peak” untuk dicari. Program kemudian melakukan proses Sequential Search dengan memeriksa data game satu-persatu secara berurutan mulai dari data pertama hingga data ditemukan. Karena game “Peak” terdapat pada urutan ke-15 di dalam list, maka program menampilkan pesan bahwa game berhasil ditemukan pada urutan tersebut. Selanjutnya pengguna memasukkan nama game “Basara”. Program melakukan proses pencarian secara berurutan pada seluruh data game di dalam list, namun data yang dicari tidak ditemukan. Oleh karena itu, program menampilkan pesan bahwa game tidak ditemukan.
+
+
+
 
 
