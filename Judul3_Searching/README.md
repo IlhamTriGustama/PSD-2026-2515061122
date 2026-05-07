@@ -65,7 +65,6 @@ PENJELASAN OUTPUT
 
 Pada output di atas, pengguna memasukkan nama game “Peak” untuk dicari. Program kemudian melakukan proses Sequential Search dengan memeriksa data game satu-persatu secara berurutan mulai dari data pertama hingga data ditemukan. Karena game “Peak” terdapat pada urutan ke-15 di dalam list, maka program menampilkan pesan bahwa game berhasil ditemukan pada urutan tersebut. Selanjutnya pengguna memasukkan nama game “Basara”. Program melakukan proses pencarian secara berurutan pada seluruh data game di dalam list, namun data yang dicari tidak ditemukan. Oleh karena itu, program menampilkan pesan bahwa game tidak ditemukan.
 
-
-
+LINK YOUTUBE : https://youtu.be/bPedfDxRpYo?si=vJ7C7CTBXyfF-Muh
 
 
