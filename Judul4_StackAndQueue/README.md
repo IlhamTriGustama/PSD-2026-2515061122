@@ -112,11 +112,16 @@ SOURCE CODE  :
     Variabel pilih digunakan untuk menyimpan pilihan menu dari pengguna. Nilai 0 adalah nilai awal sementara yang bersifat netral sebelum user memilih menu agar variabel pilih bisa terdefinisi.
 
 
-OUTPUT PROGRAM
+OUTPUT PROGRAM   :
 
 <img width="512" height="563" alt="Screenshot 2026-05-19 224556" src="https://github.com/user-attachments/assets/33a14431-b99f-467b-9d93-c1d63000e450" />
 
 <img width="545" height="465" alt="Screenshot 2026-05-19 224612" src="https://github.com/user-attachments/assets/bc46be0c-7af9-47f7-9146-456c3fec3481" />
+
+
+PENJELASAN OUTPUT PROGRAM
+
+Pada output program di atas, pengguna terlebih dahulu menambahkan beberapa judul anime ke dalam riwayat menggunakan menu tambah anime. Data yang terakhir dimasukkan akan berada di posisi paling atas stack. Setelah itu, ketika menu tampilkan riwayat dipilih, program akan menampilkan daftar anime dari yang paling baru ditonton hingga yang paling lama. Program juga dapat menampilkan anime terakhir yang ditonton menggunakan menu lihat anime terakhir. Saat pengguna memilih menu hapus anime terakhir, maka anime yang berada di posisi paling atas stack akan dihapus terlebih dahulu sesuai dengan konsep Last In First Out (LIFO). Program akan terus berjalan sampai pengguna memilih menu keluar.
 
 
 
