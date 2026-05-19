@@ -109,7 +109,16 @@ SOURCE CODE  :
 
 23. pilih = 0
 
-    Variabel pilih digunakan untuk menyimpan pilihan menu dari pengguna. Nilai 0 adalah nilai awal sementara yang bersifat netral sebelum user memilih menu agar variabel pilih bisa terdefinisi. 
+    Variabel pilih digunakan untuk menyimpan pilihan menu dari pengguna. Nilai 0 adalah nilai awal sementara yang bersifat netral sebelum user memilih menu agar variabel pilih bisa terdefinisi.
+
+
+OUTPUT PROGRAM
+
+<img width="512" height="563" alt="Screenshot 2026-05-19 224556" src="https://github.com/user-attachments/assets/33a14431-b99f-467b-9d93-c1d63000e450" />
+
+<img width="545" height="465" alt="Screenshot 2026-05-19 224612" src="https://github.com/user-attachments/assets/bc46be0c-7af9-47f7-9146-456c3fec3481" />
+
+
 
 
 
