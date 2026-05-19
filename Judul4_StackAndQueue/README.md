@@ -123,6 +123,8 @@ PENJELASAN OUTPUT PROGRAM
 
 Pada output program di atas, pengguna terlebih dahulu menambahkan beberapa judul anime ke dalam riwayat menggunakan menu tambah anime. Data yang terakhir dimasukkan akan berada di posisi paling atas stack. Setelah itu, ketika menu tampilkan riwayat dipilih, program akan menampilkan daftar anime dari yang paling baru ditonton hingga yang paling lama. Program juga dapat menampilkan anime terakhir yang ditonton menggunakan menu lihat anime terakhir. Saat pengguna memilih menu hapus anime terakhir, maka anime yang berada di posisi paling atas stack akan dihapus terlebih dahulu sesuai dengan konsep Last In First Out (LIFO). Program akan terus berjalan sampai pengguna memilih menu keluar.
 
+LINK YOUTUBE   : https://www.youtube.com/@eleven3659
+
 
 
 
