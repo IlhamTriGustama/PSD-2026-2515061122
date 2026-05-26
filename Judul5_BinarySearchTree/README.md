@@ -138,7 +138,7 @@ PENJELASAN OUTPUT PROGRAM   :
 
 Pada output program di atas, pengguna memasukkan nilai mahasiswa yang bernilai 20, karena root dari Tree nya belum ada maka nilai 20 ini akan menjadi root dari Tree. Selanjutnya pengguna memasukkan nilai 10, karena 10 lebih kecil dari 20 maka nilai 10 akan turun ke subtree sebelah kiri. Kemudian pengguna memasukkan satu nilai lagi yaitu 40, karena 40 lebih besar dari root nya yaitu 20, maka 40 akan turun ke subtree sebelah kanan. Ketika pengguna memilih pilihan untuk menampilkan inorder, sistem akan menampilkan nilai yang ada pada tiap tiap node mulai dari kiri, ke root, dan ke kanan sehingga hasilnya akan menjadi terurut. Ketika pengguna memilih untuk menampilkan pilihan Tampilkan preorder, maka sistem akan menampilkan data pada Tree yang diakses mulai dari root, turun ke subree kiri, kemudian baru ke subtree sebelah kanan, dan ketika pengguna memilih pilihan tampilkan postorder, maka sistem akan menampilkan data pada Tree yang diakses mulai subtree kiri, ke subtree kanan, dan baru kemudian ke root.
 
-
+LINK YOUTUBE   : https://youtu.be/0ye3LcX_J_I?si=2sOsnIc3avSgLqUN
     
 
     
