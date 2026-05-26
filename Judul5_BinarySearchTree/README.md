@@ -60,6 +60,76 @@ SOURCE CODE  :
     
         return root
 
+    Fungsi insert_node() digunakan untuk menambahkan data nilai mahasiswa ke dalam Binary Search Tree menggunakan konsep rekursi. Fungsi ini akan memeriksa posisi node berdasarkan aturan BST, yaitu nilai yang lebih kecil dari root akan ditempatkan di subtree kiri dan nilai yang lebih besar akan ditempatkan di subtree kanan. Jika posisi node masih kosong (None), maka program akan membuat node baru menggunakan "class Node". Proses rekursi akan terus berjalan sampai posisi yang sesuai ditemukan.
+
+14. def insert(self, nilai):
+    
+    self.root = self.insert_node(self.root, nilai)
+
+    Fungsi insert() digunakan sebagai fungsi utama untuk memasukkan data ke BST. Fungsi ini memanggil fungsi insert_node() dan memulai proses insert dari root utama tree. Dengan adanya method ini, user cukup memanggil "insert()" tanpa perlu mengatur proses rekursi secara langsung.
+
+15. def search_node(self, root, nilai):
+    
+    if root is None:
+    
+        return False
+
+    if root.nilai == nilai:
+    
+        return True
+
+    if nilai < root.nilai:
+    
+        return self.search_node(root.left, nilai)
+
+    return self.search_node(root.right, nilai)
+
+    Fugnsi search_node() digunakan untuk mencari data nilai pada BST menggunakan konsep rekursi. Program akan membandingkan nilai yang dicari dengan node saat ini. Jika nilai lebih kecil, pencarian dilakukan ke subtree kiri, sedangkan jika lebih besar maka pencarian dilakukan ke subtree kanan. Jika nilai ditemukan maka method mengembalikan True, sedangkan jika node kosong maka method mengembalikan False.
+
+16. def search(self, nilai):
+    
+        return self.search_node(self.root, nilai)
+
+    Fungsi search() digunakan sebagai fungsi utama untuk melakukan pencarian data pada BST. Fungsi ini memanggil fungsi search_node() dan memulai pencarian dari root utama tree sehingga user tidak perlu memanggil fungsi rekursif secara langsung.
+
+17. def inorder(self, root):
+    
+        if root is not None:
+    
+            self.inorder(root.left)
+    
+            print(root.nilai, end=" ")
+    
+            self.inorder(root.right)
+
+    Fungsi inorder() digunakan untuk menampilkan data BST menggunakan traversal inorder dengan urutan kiri lalu ke root dan kemudian ke kanan. Pada Binary Search Tree, traversal inorder akan menghasilkan data yang terurut dari nilai terkecil ke terbesar. Fungsi ini menggunakan rekursi untuk mengunjungi seluruh node pada tree.
+
+18. def preorder(self, root):
+    
+        if root is not None:
+    
+            print(root.nilai, end=" ")
+    
+            self.preorder(root.left)
+    
+            self.preorder(root.right)
+
+    Fungsi preorder() digunakan untuk menampilkan data BST menggunakan traversal preorder dengan urutan root lalu ke kiri dan kemudian ke kanan. Traversal ini digunakan untuk menampilkan struktur tree dimulai dari root terlebih dahulu sebelum menuju subtree kiri dan kanan.
+
+19. def postorder(self, root):
+    
+        if root is not None:
+    
+            self.postorder(root.left)
+    
+            self.postorder(root.right)
+    
+            print(root.nilai, end=" ")
+
+    Fungsi postorder() digunakan untuk menampilkan data BST menggunakan traversal postorder dengan urutan kiri lalu ke kanan dan kemudian ke root. Traversal ini akan mengunjungi subtree kiri dan kanan terlebih dahulu sebelum menampilkan node root.
+
+    
+
     
 
    
