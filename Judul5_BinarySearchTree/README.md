@@ -128,6 +128,14 @@ SOURCE CODE  :
 
     Fungsi postorder() digunakan untuk menampilkan data BST menggunakan traversal postorder dengan urutan kiri lalu ke kanan dan kemudian ke root. Traversal ini akan mengunjungi subtree kiri dan kanan terlebih dahulu sebelum menampilkan node root.
 
+OUTPUT PROGRAM   :
+
+<img width="548" height="722" alt="Screenshot 2026-05-26 225157" src="https://github.com/user-attachments/assets/a1186853-43ff-4de0-8e50-25d3049f06d7" />
+
+<img width="607" height="650" alt="Screenshot 2026-05-26 225218" src="https://github.com/user-attachments/assets/cee89ba6-85f1-426d-908d-cb8228aca09e" />
+
+
+
     
 
     
