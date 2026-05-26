@@ -20,6 +20,35 @@ SOURCE CODE  :
 
 <img width="855" height="485" alt="Screenshot 2026-05-26 220746" src="https://github.com/user-attachments/assets/87c230b1-2121-4531-9a9f-bd15c892cbad" />
 
+1. class Node:
+   Membuat class bernama "Node"
+
+2. def __init__(self, nilai):
+   Baris ini merupakan constructor pada class "Node". Memiliki parameter "self" yang merepresentasikan sebuah objek yang dibuat dari class, dan parameter "nilai" yang merepresentasikan nilai yang akan ingin dimasukkan ke dalam node.
+
+3. self.nilai = nilai
+   Untuk menyimpan data yang ada variabel "nilai" ke dalam node atau objek.
+
+4. self.left = None
+   Untuk membuat cabang yang akan menjadi subtree sebelah kiri. Nilai awalnya "None" karena pada kondisi awal root belum memiliki anak.
+
+5. self.right = None
+   Untuk membuat cabang yang akan menjadi subtree sebelah kanan. Nilai awalnya "None" karena pada kondisi awal root belum memiliki anak.
+
+6. class BST:
+   Membuat class bernama "BST"
+
+7. def insert_node(self, root, nilai):
+        if root is None:
+            return Node(nilai)
+        if nilai < root.nilai:
+            root.left = self.insert_node(root.left, nilai)
+        elif nilai > root.nilai:
+            root.right = self.insert_node(root.right, nilai)
+        return root
+
+   
+
 
 
 
