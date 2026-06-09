@@ -5,3 +5,23 @@ DESKRIPSI SINGKAT  :
 A. PENJELASAN FUNGSI PROGRAM
 
 Program Manajemen Kontak Telepon Menggunakan Hash Map Separate Chaining merupakan program yang digunakan untuk menyimpan dan mengelola data kontak telepon secara sederhana. Setiap kontak terdiri dari nomor telepon sebagai key dan nama kontak sebagai value. Program menyediakan beberapa fitur utama, yaitu menambahkan kontak baru, mencari kontak berdasarkan nomor telepon, menghapus kontak, serta menampilkan seluruh data kontak yang tersimpan di dalam hash table.
+
+B. PENJELASAN ALGORITMA HASH MAP
+
+Struktur data yang digunakan pada program ini adalah Hash Map dengan metode Separate Chaining untuk menangani collision. Setiap data kontak disimpan pada bucket yang ditentukan oleh fungsi hash, sedangkan data yang memiliki hasil hash yang sama akan disimpan dalam bentuk linked list pada bucket yang sama. Dengan menggunakan metode ini, proses penyimpanan, pencarian, dan penghapusan data dapat dilakukan dengan lebih efisien dibandingkan pencarian secara linear pada daftar data biasa.
+
+SOURCE CODE  :
+
+<img width="691" height="862" alt="Screenshot 2026-06-09 201919" src="https://github.com/user-attachments/assets/0f564c0d-7287-4f07-8a15-a182fcd717f4" />
+
+<img width="770" height="789" alt="Screenshot 2026-06-09 201950" src="https://github.com/user-attachments/assets/b15afab3-2563-4529-af85-b38f6163abe9" />
+
+<img width="825" height="770" alt="Screenshot 2026-06-09 202016" src="https://github.com/user-attachments/assets/a2f167e9-fefe-48ab-883a-508f46e09cf4" />
+
+<img width="738" height="143" alt="Screenshot 2026-06-09 202037" src="https://github.com/user-attachments/assets/665478b2-ec59-4392-91d7-4623fb356acb" />
+
+
+
+
+
+
