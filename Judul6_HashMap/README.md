@@ -23,11 +23,14 @@ SOURCE CODE  :
 1. class Node:
 
      def __init__(self, key, value):
+   
      self.key = key
+   
      self.value = value
+   
      self.next = None
 
-Class Node digunakan untuk membuat node pada linked list. Setiap node menyimpan nomor telepon sebagai key, nama kontak sebagai value, dan pointer next yang digunakan untuk menghubungkan node dengan node berikutnya.
+     Class Node digunakan untuk membuat node pada linked list. Setiap node menyimpan nomor telepon sebagai key, nama kontak sebagai value, dan pointer next yang        digunakan untuk menghubungkan node dengan node berikutnya.
 
 
 
