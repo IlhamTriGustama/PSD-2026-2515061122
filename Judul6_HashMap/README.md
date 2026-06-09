@@ -20,6 +20,15 @@ SOURCE CODE  :
 
 <img width="738" height="143" alt="Screenshot 2026-06-09 202037" src="https://github.com/user-attachments/assets/665478b2-ec59-4392-91d7-4623fb356acb" />
 
+1. class Node:
+
+     def __init__(self, key, value):
+     self.key = key
+     self.value = value
+     self.next = None
+
+Class Node digunakan untuk membuat node pada linked list. Setiap node menyimpan nomor telepon sebagai key, nama kontak sebagai value, dan pointer next yang digunakan untuk menghubungkan node dengan node berikutnya.
+
 
 
 
