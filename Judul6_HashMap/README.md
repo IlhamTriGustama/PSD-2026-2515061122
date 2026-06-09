@@ -69,7 +69,15 @@ Fungsi search() digunakan untuk mencari data kontak berdasarkan nomor telepon. P
         print("\nDaftar Kontak:")
 
 Fungsi search() digunakan untuk mencari data kontak berdasarkan nomor telepon. Program akan menelusuri linked list pada bucket yang sesuai hingga data             ditemukan atau tidak ditemukan.
-   
+
+<img width="668" height="664" alt="Screenshot 2026-06-09 212530" src="https://github.com/user-attachments/assets/51d40fef-102d-424e-8749-67a777223c21" />
+
+<img width="627" height="651" alt="Screenshot 2026-06-09 212542" src="https://github.com/user-attachments/assets/81a65e93-164b-4ec9-9102-43875d084d7d" />
+
+LINK YOUTUBE     : 
+
+
+
    
 
 
