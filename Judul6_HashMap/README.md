@@ -30,7 +30,7 @@ SOURCE CODE  :
    
           self.next = None
 
-          Class Node digunakan untuk membuat node pada linked list. Setiap node menyimpan nomor telepon sebagai key, nama kontak sebagai value, dan pointer next             yang digunakan untuk menghubungkan node dengan node berikutnya.
+Class Node digunakan untuk membuat node pada linked list. Setiap node menyimpan nomor telepon sebagai key, nama kontak sebagai value, dan pointer next             yang digunakan untuk menghubungkan node dengan node berikutnya.
 
 2. def __init__(self, size=10):
 
@@ -38,37 +38,37 @@ SOURCE CODE  :
 
         self.table = [None] * self.SIZE
 
-        Constructor digunakan untuk membuat hash table dengan ukuran tertentu. Pada program ini ukuran default hash table adalah 10 bucket yang masing-masing              diinisialisasi dengan nilai None.
+Constructor digunakan untuk membuat hash table dengan ukuran tertentu. Pada program ini ukuran default hash table adalah 10 bucket yang masing-masing              diinisialisasi dengan nilai None.
 
 3. def hash_function(self, key):
 
         return (key % self.SIZE + self.SIZE) % self.SIZE
 
-        Fungsi hash_function() digunakan untuk menentukan indeks penyimpanan data pada hash table berdasarkan nomor telepon yang dimasukkan. Hasil perhitungan             hash digunakan sebagai lokasi penyimpanan data.
+Fungsi hash_function() digunakan untuk menentukan indeks penyimpanan data pada hash table berdasarkan nomor telepon yang dimasukkan. Hasil perhitungan             hash digunakan sebagai lokasi penyimpanan data.
 
 4. def insert(self, key, value):
 
         index = self.hash_function(key)
 
-        Fungsi insert() digunakan untuk menambahkan data kontak ke dalam hash table. Jika nomor telepon sudah ada maka data akan diperbarui, sedangkan jika                terjadi collision data akan disimpan pada linked list menggunakan metode Separate Chaining.
+Fungsi insert() digunakan untuk menambahkan data kontak ke dalam hash table. Jika nomor telepon sudah ada maka data akan diperbarui, sedangkan jika                terjadi collision data akan disimpan pada linked list menggunakan metode Separate Chaining.
 
 5. def search(self, key):
 
         index = self.hash_function(key)
 
-        Fungsi search() digunakan untuk mencari data kontak berdasarkan nomor telepon. Program akan menelusuri linked list pada bucket yang sesuai hingga data             ditemukan atau tidak ditemukan.
+Fungsi search() digunakan untuk mencari data kontak berdasarkan nomor telepon. Program akan menelusuri linked list pada bucket yang sesuai hingga data             ditemukan atau tidak ditemukan.
 
 6. def remove_key(self, key):
 
         index = self.hash_function(key)
 
-        Fungsi remove_key() digunakan untuk menghapus data kontak berdasarkan nomor telepon. Jika data ditemukan, node akan dihapus dari linked list sehingga              tidak lagi tersimpan pada hash table.
+Fungsi search() digunakan untuk mencari data kontak berdasarkan nomor telepon. Program akan menelusuri linked list pada bucket yang sesuai hingga data             ditemukan atau tidak ditemukan.
 
 7. def display(self):
 
         print("\nDaftar Kontak:")
 
-        Fungsi display() digunakan untuk menampilkan seluruh data kontak yang tersimpan pada hash table. Data pada setiap bucket akan ditampilkan beserta hubungan         node pada linked list.
+Fungsi search() digunakan untuk mencari data kontak berdasarkan nomor telepon. Program akan menelusuri linked list pada bucket yang sesuai hingga data             ditemukan atau tidak ditemukan.
    
    
 
